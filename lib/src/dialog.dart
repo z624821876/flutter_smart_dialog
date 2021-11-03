@@ -20,7 +20,7 @@ class _FlutterSmartDialogState extends State<FlutterSmartDialog> {
     super.initState();
 
     // 避免Flutter Inspector -> select widget mode 功能失效
-    DialogProxy.instance.initial();
+    DialogProxy.instance.initialize();
   }
 
   @override
