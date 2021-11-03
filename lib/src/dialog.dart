@@ -17,9 +17,9 @@ class FlutterSmartDialog extends StatefulWidget {
 class _FlutterSmartDialogState extends State<FlutterSmartDialog> {
   @override
   void initState() {
-    super.initState();
-
-    // 避免Flutter Inspector -> select widget mode 功能失效
+    super.initState();    
+    
+    // 解决Flutter Inspector -> select widget mode 功能失效问题
     DialogProxy.instance.initialize();
   }
 
